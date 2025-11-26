@@ -42,17 +42,7 @@ Welcome to my profile! I am a senior Computer Engineering student at the **Unive
 
 ---
 
-### 🛠️ Tech Stack & Herramientas
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,java,linux,bash,git,docker,wireshark,kali,md&theme=dark" />
-  </a>
-</div>
-
-<br/>
-
-### 🔥 Mi Actividad
+### 🔥 Mi Activity
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=alvarofdezr&theme=radical&hide_border=true" />
