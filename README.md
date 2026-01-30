@@ -1,49 +1,110 @@
-# Hi there, I'm Alvarofdezr! 👋 🛡️
+# 👋 Hi, I'm Alvarofdezr
 
-### 👨‍💻 Cybersecurity Enthusiast | 🎓 Computer Engineering Student @ US
+## 🛡️ Senior Computer Engineering Student | Cybersecurity Specialist
 
-Bienvenido a mi perfil. Soy un estudiante de 4º curso de Ingeniería Informática en la **Universidad de Sevilla**, apasionado por la seguridad ofensiva, el análisis de vulnerabilidades y el desarrollo de software seguro.
+Welcome! I'm a final-year Computer Engineering student at the **University of Seville** with a strong focus on cybersecurity, secure software development, and offensive security. I thrive on solving complex security challenges and building robust, scalable solutions. My approach combines hands-on technical expertise, research, and a passion for continuous learning.
 
-Welcome to my profile! I am a senior Computer Engineering student at the **University of Seville**, deeply passionate about offensive security, vulnerability assessment, and secure software development.
 
----
+## 🚀 About Me
 
-### 🚀 About Me
+- 🔒 **Cybersecurity Focus:**
+  - Offensive security, penetration testing, and vulnerability assessment.
+  - Digital forensics and incident response.
 
-- 🔭 **Currently working on:**
-  - Desarrollo de herramientas de pentesting en Python.
-  - Análisis forense de redes y sistemas.
+- 🛠️ **Software Engineering:**
+  - Secure software development in Python.
+  - Automation of security tools and processes.
 
-- 🌱 **Currently learning:**
-  - Reverse Engineering & Malware Analysis.
-  - Preparándome para certificaciones como eJPT / OSCP.
+- 🎯 **Current Goals:**
+  - Deepening expertise in reverse engineering and malware analysis.
+  - Preparing for industry certifications (eJPT, OSCP).
 
-- 👯 **Looking to collaborate on:**
-  - Proyectos Open Source de ciberseguridad.
-  - CTF Teams & Hackathons.
+- 🤝 **Open to Collaboration:**
+  - Open source cybersecurity projects.
+  - CTF teams, hackathons, and research initiatives.
 
-- 💬 **Ask me about:**
-  - Linux Hardening, Python Scripting, Network Security.
 
----
+## 🧩 Key Competencies
 
-### 🛠️ Tech Stack & Tools
+- Penetration Testing & Red Teaming
+- Secure Software Architecture
+- Threat Modeling & Risk Assessment
+- Digital Forensics & Incident Response
+- Automation of Security Workflows
+- Reverse Engineering & Malware Analysis
+- DevSecOps & CI/CD Security
+- Technical Leadership & Mentoring
 
+## 🛠️ Tech Stack
+
+### 🏷️ Languages
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Metasploit-333333?style=for-the-badge&logo=metasploit&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=black" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=black" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
----
+### 🖥️ Operating Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=black">
+  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black" />
+</p>
 
-### 🔥 Mi Activity
+### 🧰 Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Metasploit-333333?style=for-the-badge&logo=metasploit&logoColor=black" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=black" /> 
+  <img src= "https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=black">
+</p>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alvarofdezr&theme=radical&hide_border=true" />
-</div>
+## 🚩 Featured Projects
+
+- <b>[Harpocrates](https://github.com/alvarofdezr/Harpocrates)</b> 
+  <i>Modern, cross-platform password manager with strong encryption and CLI/GUI support. Built in Python. <br>
+
+  <b>Key features:</b> Secure vault, CLI, PDF export, importers, and more.</i>
+
+  <code>Python</code> <code>Cryptography</code> <code>PyQt5</code>
+- <b>[Basilisk](https://github.com/alvarofdezr/Basilisk)</b>: Advanced endpoint security agent (Python)
+  <i>Advanced endpoint security agent for real-time monitoring and threat detection.</i>
+
+  <b>Key features:</b> Process auditing, network traffic analysis, and automated incident response scripts.
+
+  <code>Python</code> <code>Endpoint Security</code> <code>EDR-Research</code> 
+- <b>[Ares](https://github.com/alvarofdezr/Ares)</b>: Offensive security toolkit (Go)
+  <i>Offensive security toolkit designed for fast network reconnaissance and exploitation.</i>
+
+  <b>Key features:</b> Concurrent port scanning, vulnerability discovery, and automated payload delivery.
+
+  <code>Go</code> <code>Offensive Security</code> <code>Pentesting</code> 
+
+## 📊 GitHub Stats & Productivity
+
+| Stadistics | Contributions and streak |
+| :---: | :---: |
+| <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=alvarofdezr&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" width="100%" /> | <img src="https://streak-stats.demolab.com?user=alvarofdezr&theme=radical&v123&hide_border=true" width="100%" /> |
+
+<br>
+
+<p align="center">
+  <img width="80%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alvarofdezr&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+</p>
+
+## 📬 Contact & Connect
+
+<p align="left"> 
+<a href="mailto:alvfdezram@gmail.com"> 
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=black" /> </a> 
+</p>
+
+<p align="center">
+  <i>Always open to new opportunities, collaborations, and challenges in cybersecurity and software engineering!</i>
+</p>
