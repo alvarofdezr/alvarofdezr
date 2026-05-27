@@ -1,234 +1,97 @@
-<div align="center">
+# Álvaro Fernández Ramos
 
-```
-██████╗ ██╗ ██████╗  ███████╗ ██████╗  ███████╗ ███████╗  ██████╗ ██╗   ██╗ ██████╗  ██╗ ████████╗ ██╗   ██╗ 
-██╔════╝ ██║ ██╔══██╗ ██╔════╝ ██╔══██╗ ██╔════╝ ██╔════╝ ██╔════╝ ██║   ██║ ██╔══██╗ ██║ ╚══██╔══╝ ╚██╗ ██╔╝ 
-██║      ██║ ██████╔╝ █████╗   ██████╔╝ ███████╗ █████╗   ██║      ██║   ██║ ██████╔╝ ██║    ██║     ╚████╔╝  
-██║      ██║ ██╔══██╗ ██╔══╝   ██╔══██╗ ╚════██║ ██╔══╝   ██║      ██║   ██║ ██╔══██╗ ██║    ██║      ╚██╔╝   
-╚██████╗ ██║ ██████╔╝ ███████╗ ██║  ██║ ███████║ ███████╗ ╚██████╗ ╚██████╔╝ ██║  ██║ ██║    ██║       ██║    
- ╚═════╝ ╚═╝ ╚═════╝  ╚══════╝ ╚═╝  ╚═╝ ╚══════╝ ╚══════╝  ╚═════╝  ╚═════╝  ╚═╝  ╚═╝ ╚═╝    ╚═╝       ╚═╝
-```
+Computer Engineering @ University of Seville   
+Focused on cybersecurity engineering, systems programming, and secure software design.
 
-### Álvaro Fernández Ramos
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/álvaro-fernández-71b25a404)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alvarofdezram@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/alvarofdezr)
 
-**Computer Engineering · University of Seville · Class of 2025**  
-*Building secure software. Breaking things to understand them.*
+## About
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/álvaro-fernández-71b25a404)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvfdezram@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alvarofdezr)
-[![Profile Views](https://komarev.com/ghpvc/?username=alvarofdezr&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS)](https://github.com/alvarofdezr)
+I build security-focused software with emphasis on endpoint telemetry, encrypted systems, and offensive security tooling. My work focuses on understanding how attacks work at the system level, then building resilient architectures to detect and respond to them.
 
-</div>
+**Current interests:**
+- Endpoint detection and response (EDR) architecture
+- Reverse engineering & malware analysis
+- Secure systems design and cryptographic engineering
+- Concurrent networking tools and high-performance systems
 
----
+## Tech Stack
 
-## 👾 About Me
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-I'm a final-year Computer Engineering student at the **University of Seville**, focused on cybersecurity engineering. My work sits at the intersection of **secure software development** and **offensive security research** — I build tools to understand how attacks work, then harden them against themselves.
+## Featured Projects
 
-- 🎯 Preparing for **eJPT → OSCP** certification path  
-- 🔬 Deepening expertise in **reverse engineering** and **malware analysis**  
-- 🛠️ Currently expanding [Aegis Sentinel](https://github.com/alvarofdezr/Aegis-sentinel), [Basilisk](https://github.com/alvarofdezr/Basilisk) and [Harpocrates](https://github.com/alvarofdezr/Harpocrates)  
-- 🤝 Open to **internships**, junior roles and research collaborations in cybersecurity
+### [Aegis Sentinel](https://github.com/alvarofdezr/Aegis-sentinel) — Endpoint Detection & Response
 
----
+Experimental endpoint detection and response system focused on host telemetry collection and detection pipelines.
 
-## 🛠️ Tech Stack
+- Agent-server architecture over HTTPS for telemetry ingestion
+- Collection of process, network, filesystem, and USB events
+- YARA-based detection engine with optional threat intelligence integration
+- Automated response actions (process termination, isolation simulation)
+- Web dashboard with role-based access control (RBAC)
+- Containerized deployment using Docker
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-### Security Tools
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logoColor=white)
-![YARA](https://img.shields.io/badge/YARA-222222?style=for-the-badge&logoColor=white)
-
-### Infrastructure & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### Environments
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+**Engineering focus:** system architecture, telemetry design, detection logic, and observability (structured logging and metrics)
 
 ---
 
-## 🚀 Featured Projects
+### [Harpocrates](https://github.com/alvarofdezr/Harpocrates) — Encrypted Password Vault
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Secure local password storage system designed to explore applied cryptography and vault design.
 
-### 🔐 [Harpocrates](https://github.com/alvarofdezr/Harpocrates)
-**Local Encrypted Password Manager**
+- AES-256-GCM authenticated encryption
+- Argon2id key derivation
+- Dual-factor access model (password + secret key)
+- Tamper-evident audit log design using HMAC
+- Integration with HaveIBeenPwned (k-anonymity model)
+- CI pipeline with security checks (Bandit)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Security](https://img.shields.io/badge/Argon2id%20+%20AES--256--GCM-red?style=flat)
-![Release](https://img.shields.io/badge/Release-v2.0.0-blue?style=flat)
-
-CLI/GUI password manager with zero-trust local architecture.
-
-- 🔑 Dual-factor vault: Master Password + 128-bit Secret Key  
-- 🔒 AES-256-GCM authenticated encryption  
-- 📋 Tamper-evident audit log with HMAC-signed genesis block  
-- 🌐 K-Anonymity HIBP breach scanning  
-- ⚙️ CI/CD: GitHub Actions, Bandit, automated binary builds  
-- 📦 **6 public releases** with automatic vault migration
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [Aegis Sentinel](https://github.com/alvarofdezr/Aegis-sentinel)
-**Next-Generation EDR Platform**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![EDR](https://img.shields.io/badge/EDR%20Platform-FF1744?style=flat)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-Advanced endpoint security platform expanding Basilisk's foundation.
-
-- 🖥️ Enhanced process, network, FIM, USB monitoring  
-- 🧬 YARA scanning + VirusTotal threat intel  
-- 🚨 Automated incident response capabilities  
-- 🔐 HTTPS C2 with RBAC & session management  
-- 📊 Web dashboard + security reports  
-- 🐳 Containerized deployment ready
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🐍 [Basilisk](https://github.com/alvarofdezr/Basilisk) ✅
-**Endpoint Detection & Response System**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Status](https://img.shields.io/badge/COMPLETED-28a745?style=flat)
-
-Foundation EDR: agent + C2 server + web dashboard.
-
-- 🖥️ Process, network, FIM, USB monitoring  
-- 🧬 YARA scanning + threat intel  
-- 🚨 Active response: kill, isolate, remote scan  
-- 🔐 HTTPS C2 with RBAC  
-- 📊 Web dashboard + PDF reports  
-- 🔄 Architecture extended in **Aegis Sentinel**
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 [Cript](https://github.com/alvarofdezr/cript)
-**Advanced Cryptography Framework**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Crypto](https://img.shields.io/badge/Cryptography-FF6B6B?style=flat)
-
-Comprehensive cryptography library for educational and practical operations.
-
-- 🔑 Protocol implementation & primitives  
-- 🎯 Attack demonstrations  
-- 📚 Comprehensive documentation  
-- 💡 Practical examples & best practices  
-- ✅ UV-managed dependencies  
-- 🧪 Full test coverage
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚔️ [Ares](https://github.com/alvarofdezr/Ares)
-**Offensive Security Toolkit**
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Offensive](https://img.shields.io/badge/Offensive-Security-red?style=flat)
-
-Fast network reconnaissance toolkit written in Go.
-
-- 🎯 Concurrent port scanning  
-- 🔍 Vulnerability discovery  
-- 💥 Automated payload delivery  
-- ⚡ High-performance networking
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 [Personal Portfolio & Blog](https://alvarofdezr-web.vercel.app)
-**Technical Portfolio**
-
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat&logo=astro&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Performance](https://img.shields.io/badge/Lighthouse-100-4AE27A?style=flat)
-
-Modern portfolio and technical blog.
-
-- 🚀 100/100 Lighthouse performance  
-- 📱 Responsive design  
-- 📝 Technical articles & writeups  
-- 🔍 SEO-optimized  
-- 📡 RSS feed support
-
-</td>
-</tr>
-</table>
+**Focus:** applied cryptography, secure storage design, and key management trade-offs
 
 ---
 
-## 📊 GitHub Stats
+### [Ares](https://github.com/alvarofdezr/Ares) — Concurrent Network Reconnaissance
+**High-performance reconnaissance toolkit in Go**
 
-<div align="center">
+- Concurrent port scanning with tunable worker pools
+- Vulnerability discovery and service enumeration
+- Efficient network I/O with goroutine patterns
+- Useful for penetration testing and network reconnaissance
 
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=alvarofdezr&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alvarofdezr&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=alvarofdezr&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-</div>
+**Architecture:** Worker pool pattern, context cancellation, backpressure handling.
 
 ---
 
-## 🎯 Certifications & CTF
- 
-### Certification Roadmap
-| Status | Cert | Issuer |
-|--------|------|--------|
-| 🗓️ Planned | eJPT — Junior Penetration Tester | INE / eLearnSecurity |
-| 🗓️ Planned | OSCP — Offensive Security Certified Professional | Offensive Security |
- 
-### CTF Platforms
-| Platform | Status | Profile |
-|----------|--------|---------|
-| ![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black) | 🔄 Starting | — |
-| ![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat&logo=tryhackme&logoColor=white) | 🔄 Starting | — |
- 
-> Writeups and CTF solutions will be published here as I progress.
+### [Basilisk](https://github.com/alvarofdezr/Basilisk) — EDR Prototype System
 
----
+Prototype endpoint detection and response system that served as the base architecture for Aegis Sentinel.
 
-## 🔐 Security Philosophy
+- Host telemetry collection (process, network, filesystem)
+- YARA-based scanning integration
+- Basic response actions
+- REST API backend (FastAPI)
+- Web dashboard for event visualization
 
-> *"The best way to defend a system is to understand how to attack it."*
+**Status:** Experimental system; superseded by Aegis Sentinel
 
-All projects are **personal, independent work** — conceived, built, tested, and documented by me. Security tools are built strictly for **educational and research purposes**. Never use on systems without explicit authorization.
 
----
+## Learning & Development
 
-<div align="center">
+**Active areas:**
+- Advanced Go: concurrency patterns, networking, performance optimization
+- Linux internals: syscall tracing, eBPF, process memory forensics
+- Malware analysis and reverse engineering
+- Cryptographic engineering and protocol design
 
-*Always open to new opportunities, collaborations, and challenges in cybersecurity and software engineering.*
+## Contact
 
-</div>
+Open to internships, junior positions, and security research collaborations.
