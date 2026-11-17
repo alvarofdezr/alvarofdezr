@@ -1,53 +1,65 @@
 <div align="center">
-  <h1><code>Álvaro Fernández Ramos</code></h1>
-  <p>
-    <b>Security Engineer | Systems Programming | Applied Cryptography</b>
-  </p>
-  <p>
-    <a href="https://www.linkedin.com/in/álvaro-fernández-71b25a404">LinkedIn</a> •
-    <a href="mailto:alvarofdezram@gmail.com">Email</a> •
-    <a href="https://alvarofdezr.github.io">Portfolio</a>
-  </p>
+  <h2>Álvaro Fernández Ramos</h2>
+  <p><b>Security Engineer & Systems Developer</b></p>
+  <p>Focusing on Host Telemetry, Offensive Tooling Architecture, Systems Engineering & Applied Cryptography</p>
+
+  <a href="https://alvarofdezr.github.io">🌐 Website</a> •
+  <a href="https://www.linkedin.com/in/%C3%A1lvaro-fern%C3%A1ndez-71b25a404">💼 LinkedIn</a> •
+  <a href="mailto:alvarofdezram@gmail.com">📫 Email</a>
 </div>
 
 <br>
 
-```shell
-$ whoami
-```
-> I build security-focused software to understand how it can be broken, and break systems to understand how they can be defended. 
-> Computer Engineering student @ University of Seville, focused on endpoint telemetry, malware analysis, and offensive security tooling architectures.
+### Technical Profile
 
-### ⚡ Core Stack & Research
-```yaml
-Languages:   [Go, Python, Bash, TypeScript, C]
-Defensive:   [EDR Architecture, Zero-Trust Models, YARA, Forensic Telemetry]
-Offensive:   [Recon Tooling, Exploit Dev, AV/EDR Evasion, Networking I/O]
-Crypto:      [AES-256-GCM, Argon2id, HMAC, HKDF, E2EE]
-Environment: [Linux, Docker, GitHub Actions, Z3 Theorem Prover]
-```
+| Domain | Technologies & Methodologies |
+| :--- | :--- |
+| **Languages** | `Go` · `Python` · `C` · `Bash` · `JavaScript` · `x86-64 ASM` |
+| **Defensive Security** | EDR Sensor Architecture, Telemetry Ingestion, YARA Engine, Zero-Trust |
+| **Offensive Tooling** | Concurrent Network Scanners, In-Memory Evasion, Syscall Injection |
+| **Applied Cryptography** | AES-256-GCM, Argon2id, HKDF, HMAC, Double Ratchet (E2EE) |
+| **Systems & Verification** | Linux Internals, File Format Parsers, Z3 SMT Solver, Docker, CI/CD |
 
 ---
 
-### 🛡️ Arsenal & Tooling
+### Key Projects
 
-| Project | Category | Description |
-|---------|----------|-------------|
-| **[Aegis Sentinel](https://github.com/alvarofdezr/Aegis-sentinel)** | Defensive | Next-gen Endpoint Detection & Response (EDR) system. Architecture focuses on host telemetry collection, YARA-based scanning engine, and automated incident response pipelines via REST API. |
-| **[Ares](https://github.com/alvarofdezr/Ares)** | Offensive | High-performance, highly concurrent network reconnaissance toolkit written in Go. Implements worker pool patterns and context cancellation for rapid vulnerability discovery. |
-| **[Harpocrates](https://github.com/alvarofdezr/Harpocrates)** | Crypto | CLI/GUI local Zero-Trust password vault. Built to explore applied cryptography: AES-256-GCM encryption, Argon2id key derivation, and tamper-evident audit logs via HMAC. |
-| **[SecureChain TFG](https://github.com/alvarofdezr/securechain-ssc-ingestion)** | SCA / R&D | Supply Chain security tool extending the SecureChain platform to Go ecosystems. Formal verification of dependency trees via Z3 Theorem Prover and CycloneDX SBOM generation. |
-| **[Basilisk](https://github.com/alvarofdezr/Basilisk)** | Defensive | Prototype EDR system for process, network, and registry monitoring. Serves as the foundational blueprint for Aegis Sentinel. |
-| **[Cript](https://github.com/alvarofdezr/cript)** | Crypto | Didactic cryptography framework simulating secure End-to-End Encrypted (E2EE) channels utilizing Double Ratchet and HKDF derivations. |
+#### [Aegis Sentinel](https://github.com/alvarofdezr/Aegis-sentinel) — Endpoint Detection & Response (EDR)
+* Built in **Go** to capture live host processes, network telemetry, and system events.
+* Integrates an internal **YARA engine** for real-time memory and artifact signature scanning.
+* Exposes a modular REST API for automated security orchestration, alerting, and triage.
+
+#### [Ares](https://github.com/alvarofdezr/Ares) — High-Performance Network Scanner
+* Concurrent network recon framework built with Go's `sync` primitives, channels, and worker pools.
+* Employs non-blocking network I/O for ultra-fast port identification and banner grabbing.
+
+#### [ARQMED Studio](https://github.com/alvarofdezr/Arqmed) — Bidirectional FIEBDC-3 (.BC3) Engine & Web Editor
+* Zero-runtime-dependency **Python** parsing engine supporting legacy encodings (`CP850`, `Windows-1252`, `UTF-8`) and relational tree resolution.
+* Exporters to SQLite, JSON, and CSV with graph cascade recalculation algorithms for unit-price variations.
+* Standalone client-side web editor with `IndexedDB` persistence and Android tablet support.
+
+#### [Harpocrates](https://github.com/alvarofdezr/Harpocrates) — Zero-Trust Password Vault
+* Standalone credential manager utilizing **AES-256-GCM** for confidentiality and authenticated integrity.
+* Leverages **Argon2id** for brute-force resistant key derivation and **HMAC** for tamper-evident audit trails.
+
+#### [SecureChain SSC](https://github.com/alvarofdezr/securechain-ssc-ingestion) — Supply Chain Verification (BSc Thesis)
+* Software supply-chain security analyzer targeting Go modules and package ecosystems.
+* Generates CycloneDX SBOMs and performs formal dependency conflict proofs via the **Z3 Theorem Prover**.
+
+<details>
+<summary><b>Other Projects & Research Prototypes</b></summary>
+<br>
+
+* **[Cript](https://github.com/alvarofdezr/cript)** `Python`: End-to-End Encrypted (E2EE) framework simulating the Double Ratchet protocol and HKDF key derivation trees.
+* **[Basilisk](https://github.com/alvarofdezr/Basilisk)** `Go`: Early-stage host monitor (processes, networking, hooks) that served as the architectural blueprint for *Aegis Sentinel*.
+</details>
 
 ---
 
-### 🧠 Current Research Focus
-
-I treat every project as an experiment to go deeper into systems engineering. Currently actively researching:
-- **Advanced Go Networking:** Custom TCP/UDP stack implementations and high-throughput concurrent scanners.
-- **Linux Internals:** Syscall hooking, eBPF capabilities, and memory forensics for EDR telemetry.
-- **Malware Dev/Evasion:** Bypassing static/dynamic analysis via obfuscation, API hashing, and direct syscalls.
+### Current Areas of Exploration
+* **Kernel & eBPF Telemetry:** Exploring tracepoints and kprobes for low-overhead security monitoring.
+* **Offensive Evasion Techniques:** Direct syscall invocation, API unhooking, and memory stealth.
+* **Network Stack Internals:** Custom packet crafting and socket optimization in Go and C.
 
 <br>
 
