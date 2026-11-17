@@ -5,7 +5,7 @@
 
   <a href="https://alvarofdezr.github.io">🌐 Website</a> •
   <a href="https://www.linkedin.com/in/%C3%A1lvaro-fern%C3%A1ndez-71b25a404">💼 LinkedIn</a> •
-  <a href="mailto:alvarofdezram@gmail.com">📫 Email</a>
+  <a href="mailto:alvarofdezr@outlook.es">📫 Email</a>
 </div>
 
 <br>
